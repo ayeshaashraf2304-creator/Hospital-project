@@ -1,0 +1,39 @@
+-- Data Analysics: Patients_data
+
+-- Question 1: Categorize patients into Age Risk Groups using CASE WHEN logic?
+
+SELECT 
+    patient_id,
+    diagnosis_group,
+    age,
+    CASE 
+        WHEN age >= 65 THEN 'High Risk Elderly'
+        WHEN age BETWEEN 40 AND 64 THEN 'Medium Risk Adult'
+        ELSE 'Low Risk Young Adult'
+    END AS age_risk_segment,
+    readmitted_30_days,
+FROM
+     Patients_data
+
+-- Question 2: Calculate readmission counts based on missing follow-up appointments?
+SELECT 
+    follow_up_scheduled,
+    COUNT(patient_id) AS total_patients,
+    SUM(CASE WHEN readmitted_30_days = 'Yes' THEN 1 ELSE 0 END) AS total_readmissions
+FROM 
+     Patients_data
+GROUP BY
+     follow_up_scheduled
+
+-- Question 3: Which diagnosis group has more patients?
+
+SELECT 
+      patients_id,
+      diagnosis_group,
+FROM
+      Patients_data
+GROUP BY
+      diagnosis_group
+ORDER BY
+      patients_id DESC
+      

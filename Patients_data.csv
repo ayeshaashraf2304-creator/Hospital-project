@@ -1,0 +1,1001 @@
+patient_id,admission_date,age,diagnosis_group,stay_duration_days,readmitted_30_days,follow_up_scheduled
+1,24/06/2025,81,Injury,9,yes,yes
+2,17/10/2025,33,Stroke,3,yes,no
+3,10/12/2025,76,Pneumonia,9,yes,yes
+4,13/04/2025,88,Injury,5,yes,yes
+5,28/09/2025,99,Heart Failure,5,no,no
+6,22/09/2025,42,Diabetes,1,no,no
+7,30/05/2025,20,Injury,8,no,no
+8,21/03/2025,39,Injury,9,no,no
+9,02/07/2025,30,Stroke,6,no,no
+10,26/10/2025,30,Injury,14,no,yes
+11,18/05/2025,50,Injury,6,no,no
+12,19/10/2025,49,Stroke,4,yes,yes
+13,08/04/2025,45,Pneumonia,14,yes,yes
+14,19/11/2025,55,Diabetes,8,no,no
+15,21/01/2025,49,Diabetes,1,no,yes
+16,25/10/2025,47,Diabetes,9,no,no
+17,09/03/2025,89,Heart Failure,15,no,no
+18,28/05/2025,89,Diabetes,3,no,yes
+19,12/04/2025,99,Diabetes,1,no,no
+20,14/03/2025,55,Diabetes,6,yes,no
+21,25/04/2025,41,Pneumonia,12,yes,no
+22,07/07/2025,41,Pneumonia,5,no,no
+23,21/05/2025,54,Injury,9,yes,no
+24,18/02/2025,100,Stroke,14,no,yes
+25,07/09/2025,91,Diabetes,10,yes,yes
+26,13/02/2025,33,Pneumonia,3,yes,no
+27,07/08/2025,60,Injury,12,yes,yes
+28,26/05/2025,86,Heart Failure,14,yes,yes
+29,09/05/2025,88,Injury,8,no,no
+30,10/12/2025,20,Diabetes,4,yes,yes
+31,04/01/2025,100,Injury,2,yes,yes
+32,17/06/2025,43,Injury,13,yes,no
+33,17/08/2025,27,Injury,3,yes,yes
+34,05/07/2025,79,Injury,15,yes,yes
+35,02/08/2025,65,Injury,1,no,no
+36,14/03/2025,72,Diabetes,12,no,no
+37,20/07/2025,55,Stroke,1,yes,yes
+38,12/03/2025,24,Diabetes,10,no,no
+39,13/08/2025,39,Stroke,11,yes,no
+40,26/01/2025,87,Stroke,14,no,yes
+41,28/04/2025,74,Pneumonia,4,no,yes
+42,09/05/2025,21,Heart Failure,14,yes,yes
+43,30/04/2025,24,Stroke,12,no,no
+44,23/04/2025,80,Pneumonia,11,no,no
+45,05/02/2025,18,Injury,15,yes,no
+46,28/10/2025,50,Pneumonia,4,yes,yes
+47,12/07/2025,32,Stroke,10,yes,yes
+48,18/05/2025,35,Diabetes,3,no,yes
+49,15/02/2025,80,Injury,1,no,no
+50,10/12/2025,32,Diabetes,6,no,no
+51,23/09/2025,30,Injury,10,no,no
+52,03/01/2025,51,Diabetes,7,yes,yes
+53,12/12/2025,65,Stroke,12,no,no
+54,01/07/2025,43,Diabetes,4,no,no
+55,23/09/2025,43,Diabetes,13,yes,no
+56,28/10/2025,48,Diabetes,8,no,no
+57,19/01/2025,65,Stroke,14,no,yes
+58,24/03/2025,50,Stroke,5,no,yes
+59,17/09/2025,35,Stroke,1,yes,no
+60,02/03/2025,98,Pneumonia,13,yes,yes
+61,08/06/2025,71,Injury,8,yes,no
+62,20/11/2025,59,Pneumonia,5,no,yes
+63,18/05/2025,58,Pneumonia,4,no,yes
+64,29/06/2025,78,Heart Failure,2,no,yes
+65,03/08/2025,45,Heart Failure,3,no,no
+66,14/01/2025,75,Heart Failure,3,no,no
+67,07/09/2025,40,Heart Failure,1,yes,yes
+68,16/04/2025,94,Heart Failure,14,yes,yes
+69,14/10/2025,31,Diabetes,12,no,yes
+70,24/05/2025,55,Heart Failure,11,yes,yes
+71,17/08/2025,36,Heart Failure,8,no,no
+72,18/10/2025,46,Pneumonia,1,yes,no
+73,12/07/2025,94,Heart Failure,2,no,yes
+74,18/05/2025,67,Diabetes,6,no,no
+75,04/04/2025,57,Injury,11,no,yes
+76,18/07/2025,23,Heart Failure,4,yes,no
+77,14/06/2025,71,Injury,8,yes,yes
+78,15/03/2025,18,Pneumonia,4,yes,no
+79,04/01/2025,35,Heart Failure,13,no,no
+80,14/04/2025,64,Heart Failure,6,no,no
+81,16/12/2025,48,Diabetes,4,yes,no
+82,27/03/2025,50,Heart Failure,14,no,yes
+83,22/06/2025,35,Heart Failure,14,yes,yes
+84,03/07/2025,52,Injury,9,no,yes
+85,13/11/2025,38,Injury,6,yes,no
+86,11/02/2025,62,Heart Failure,14,yes,yes
+87,03/12/2025,96,Injury,7,yes,no
+88,06/11/2025,20,Injury,7,yes,yes
+89,08/04/2025,54,Pneumonia,4,no,yes
+90,20/04/2025,30,Diabetes,14,no,yes
+91,14/01/2025,40,Pneumonia,12,yes,no
+92,01/12/2025,53,Injury,6,no,yes
+93,17/10/2025,94,Stroke,14,yes,yes
+94,02/10/2025,84,Pneumonia,2,no,yes
+95,04/06/2025,92,Injury,4,no,no
+96,11/06/2025,80,Diabetes,4,no,no
+97,22/11/2025,41,Injury,8,yes,yes
+98,13/02/2025,86,Injury,6,yes,no
+99,04/03/2025,68,Heart Failure,11,no,no
+100,08/07/2025,60,Injury,5,yes,no
+101,07/05/2025,37,Heart Failure,4,yes,no
+102,24/07/2025,55,Diabetes,3,yes,yes
+103,01/05/2025,100,Diabetes,14,no,no
+104,03/08/2025,39,Injury,10,no,yes
+105,27/04/2025,61,Injury,11,no,no
+106,23/07/2025,36,Stroke,2,no,yes
+107,17/06/2025,44,Pneumonia,3,no,no
+108,25/02/2025,56,Heart Failure,8,yes,yes
+109,30/03/2025,38,Heart Failure,6,yes,no
+110,06/01/2025,35,Injury,1,no,yes
+111,27/12/2025,75,Heart Failure,4,yes,yes
+112,06/06/2025,64,Heart Failure,6,yes,yes
+113,06/03/2025,66,Stroke,4,no,no
+114,17/12/2025,72,Injury,4,no,yes
+115,26/06/2025,26,Stroke,12,no,yes
+116,13/03/2025,65,Heart Failure,15,no,no
+117,28/06/2025,46,Heart Failure,15,yes,yes
+118,20/07/2025,24,Pneumonia,14,no,no
+119,27/04/2025,23,Injury,6,no,no
+120,23/02/2025,31,Injury,12,yes,no
+121,06/07/2025,26,Heart Failure,10,no,no
+122,11/09/2025,100,Stroke,2,yes,no
+123,31/10/2025,28,Heart Failure,12,no,yes
+124,13/02/2025,87,Injury,4,yes,yes
+125,11/05/2025,96,Stroke,12,no,no
+126,26/01/2025,46,Diabetes,10,yes,yes
+127,29/06/2025,47,Diabetes,11,no,yes
+128,25/02/2025,62,Pneumonia,13,yes,yes
+129,01/10/2025,97,Heart Failure,4,yes,no
+130,27/10/2025,81,Stroke,15,no,no
+131,31/10/2025,100,Diabetes,9,no,no
+132,13/08/2025,48,Injury,8,yes,yes
+133,22/10/2025,70,Injury,12,no,no
+134,02/10/2025,27,Stroke,5,yes,no
+135,18/05/2025,52,Pneumonia,13,yes,yes
+136,13/11/2025,28,Heart Failure,2,yes,no
+137,28/08/2025,55,Pneumonia,11,yes,yes
+138,08/11/2025,74,Injury,6,yes,yes
+139,24/12/2025,72,Stroke,14,yes,no
+140,04/07/2025,25,Stroke,15,yes,yes
+141,23/11/2025,74,Pneumonia,8,no,no
+142,05/02/2025,64,Injury,11,yes,no
+143,09/09/2025,80,Stroke,13,yes,no
+144,11/09/2025,66,Injury,5,yes,no
+145,05/08/2025,82,Diabetes,3,no,yes
+146,21/01/2025,82,Diabetes,1,yes,no
+147,15/04/2025,95,Injury,4,yes,yes
+148,12/09/2025,99,Pneumonia,15,yes,no
+149,16/05/2025,86,Diabetes,9,no,yes
+150,25/04/2025,100,Pneumonia,8,no,no
+151,05/06/2025,31,Stroke,6,yes,no
+152,04/11/2025,41,Heart Failure,14,yes,yes
+153,15/11/2025,49,Injury,2,yes,no
+154,20/11/2025,30,Injury,11,no,yes
+155,25/05/2025,45,Diabetes,12,no,yes
+156,23/03/2025,99,Pneumonia,2,no,yes
+157,02/06/2025,53,Injury,11,yes,yes
+158,09/07/2025,65,Pneumonia,5,yes,no
+159,03/09/2025,74,Injury,12,yes,no
+160,27/01/2025,97,Heart Failure,3,no,yes
+161,21/07/2025,67,Diabetes,4,no,no
+162,30/09/2025,86,Heart Failure,14,yes,yes
+163,27/08/2025,68,Pneumonia,15,yes,no
+164,20/04/2025,54,Injury,11,yes,no
+165,25/06/2025,21,Pneumonia,7,yes,yes
+166,05/08/2025,43,Heart Failure,3,yes,no
+167,07/01/2025,85,Pneumonia,10,no,yes
+168,06/03/2025,28,Pneumonia,15,yes,no
+169,20/09/2025,20,Injury,4,no,no
+170,14/05/2025,73,Injury,11,no,yes
+171,31/05/2025,26,Stroke,4,yes,yes
+172,27/10/2025,90,Heart Failure,9,no,yes
+173,05/06/2025,43,Heart Failure,6,yes,yes
+174,28/01/2025,100,Injury,12,no,yes
+175,14/06/2025,83,Heart Failure,13,no,no
+176,23/05/2025,52,Injury,15,no,no
+177,06/03/2025,72,Diabetes,1,yes,yes
+178,17/01/2025,98,Pneumonia,9,no,no
+179,09/09/2025,29,Diabetes,10,no,yes
+180,14/02/2025,40,Heart Failure,8,no,no
+181,13/07/2025,55,Diabetes,10,no,yes
+182,22/12/2025,25,Stroke,7,no,no
+183,11/12/2025,90,Stroke,10,yes,yes
+184,11/10/2025,45,Heart Failure,9,yes,no
+185,25/03/2025,63,Stroke,14,no,no
+186,23/12/2025,61,Pneumonia,2,yes,yes
+187,24/03/2025,33,Stroke,10,no,no
+188,28/06/2025,86,Injury,2,no,no
+189,02/06/2025,30,Stroke,7,no,yes
+190,13/08/2025,75,Heart Failure,8,no,no
+191,06/09/2025,28,Heart Failure,9,no,no
+192,03/06/2025,82,Pneumonia,7,yes,yes
+193,02/10/2025,28,Pneumonia,5,yes,no
+194,27/10/2025,66,Injury,3,yes,yes
+195,09/12/2025,44,Diabetes,4,no,no
+196,10/03/2025,33,Stroke,7,yes,no
+197,30/04/2025,58,Pneumonia,8,no,no
+198,08/04/2025,26,Diabetes,1,no,no
+199,02/11/2025,76,Pneumonia,2,no,yes
+200,04/11/2025,27,Pneumonia,3,no,no
+201,15/08/2025,59,Diabetes,13,no,no
+202,18/07/2025,38,Pneumonia,3,no,no
+203,30/08/2025,38,Pneumonia,11,yes,no
+204,12/01/2025,62,Stroke,1,yes,no
+205,02/03/2025,73,Stroke,1,yes,yes
+206,15/03/2025,84,Diabetes,4,no,no
+207,23/10/2025,18,Pneumonia,9,no,yes
+208,25/02/2025,30,Injury,12,yes,no
+209,13/11/2025,31,Heart Failure,4,no,yes
+210,04/10/2025,89,Injury,10,yes,no
+211,01/01/2025,82,Pneumonia,9,no,no
+212,28/02/2025,53,Heart Failure,11,yes,yes
+213,12/12/2025,70,Heart Failure,2,yes,yes
+214,01/01/2025,29,Injury,2,yes,no
+215,20/04/2025,31,Stroke,4,yes,no
+216,30/07/2025,38,Diabetes,7,yes,yes
+217,29/01/2025,79,Diabetes,7,yes,no
+218,27/02/2025,57,Heart Failure,8,no,no
+219,26/07/2025,38,Diabetes,11,yes,yes
+220,23/02/2025,64,Heart Failure,13,no,yes
+221,23/12/2025,21,Diabetes,1,yes,yes
+222,23/01/2025,86,Heart Failure,11,yes,yes
+223,15/02/2025,30,Diabetes,6,no,yes
+224,06/01/2025,90,Injury,1,no,yes
+225,16/01/2025,90,Pneumonia,4,yes,no
+226,02/08/2025,27,Heart Failure,1,no,yes
+227,21/06/2025,71,Heart Failure,13,no,no
+228,22/11/2025,56,Diabetes,12,no,no
+229,25/12/2025,19,Diabetes,15,yes,yes
+230,19/10/2025,65,Injury,14,yes,yes
+231,01/10/2025,32,Heart Failure,3,yes,yes
+232,15/02/2025,63,Injury,5,yes,yes
+233,12/03/2025,66,Injury,13,no,no
+234,08/02/2025,65,Stroke,4,no,yes
+235,08/07/2025,38,Pneumonia,10,yes,no
+236,16/08/2025,53,Diabetes,8,no,no
+237,23/11/2025,36,Pneumonia,5,yes,no
+238,14/03/2025,80,Stroke,15,no,no
+239,12/07/2025,95,Injury,8,no,no
+240,24/08/2025,90,Injury,15,no,no
+241,03/06/2025,98,Injury,6,yes,no
+242,30/10/2025,94,Stroke,4,yes,yes
+243,11/07/2025,72,Heart Failure,1,yes,yes
+244,20/09/2025,52,Injury,13,yes,yes
+245,09/03/2025,22,Stroke,12,no,no
+246,19/06/2025,50,Diabetes,7,yes,yes
+247,11/09/2025,38,Pneumonia,1,no,yes
+248,11/03/2025,62,Pneumonia,2,no,yes
+249,09/09/2025,74,Heart Failure,13,yes,yes
+250,23/09/2025,33,Pneumonia,2,yes,yes
+251,05/09/2025,19,Stroke,5,no,no
+252,29/03/2025,80,Stroke,9,no,yes
+253,27/02/2025,72,Diabetes,6,yes,no
+254,16/01/2025,65,Heart Failure,10,yes,no
+255,09/11/2025,36,Stroke,2,yes,yes
+256,21/04/2025,76,Injury,10,no,no
+257,27/04/2025,85,Heart Failure,14,no,no
+258,22/04/2025,86,Injury,3,yes,yes
+259,22/12/2025,61,Heart Failure,11,yes,yes
+260,01/10/2025,62,Heart Failure,14,no,yes
+261,30/12/2025,50,Stroke,12,no,no
+262,26/05/2025,50,Injury,5,yes,no
+263,19/05/2025,92,Pneumonia,9,yes,yes
+264,31/08/2025,53,Pneumonia,11,yes,yes
+265,25/12/2025,70,Stroke,11,yes,no
+266,07/05/2025,73,Pneumonia,5,yes,yes
+267,16/07/2025,71,Heart Failure,14,yes,no
+268,17/06/2025,57,Stroke,13,no,yes
+269,02/03/2025,95,Injury,5,no,no
+270,23/08/2025,41,Heart Failure,2,yes,no
+271,05/01/2025,76,Injury,3,yes,yes
+272,09/11/2025,66,Injury,8,yes,no
+273,09/01/2025,59,Diabetes,5,no,no
+274,08/01/2025,66,Diabetes,6,no,no
+275,04/08/2025,48,Injury,14,no,yes
+276,01/11/2025,69,Injury,3,no,yes
+277,11/09/2025,61,Pneumonia,5,yes,yes
+278,28/09/2025,51,Stroke,12,yes,yes
+279,29/11/2025,95,Diabetes,1,no,yes
+280,29/12/2025,93,Pneumonia,2,yes,no
+281,12/03/2025,73,Stroke,11,yes,yes
+282,30/11/2025,85,Stroke,6,no,yes
+283,15/05/2025,33,Stroke,8,no,no
+284,24/07/2025,64,Heart Failure,9,yes,yes
+285,10/02/2025,75,Stroke,10,yes,yes
+286,09/12/2025,85,Diabetes,10,no,yes
+287,10/05/2025,44,Heart Failure,12,yes,yes
+288,17/08/2025,51,Heart Failure,15,no,yes
+289,21/04/2025,66,Stroke,4,yes,no
+290,13/08/2025,29,Injury,15,no,yes
+291,13/04/2025,88,Diabetes,15,yes,no
+292,18/10/2025,65,Heart Failure,15,yes,yes
+293,05/07/2025,37,Diabetes,5,yes,yes
+294,05/07/2025,61,Injury,14,no,yes
+295,28/06/2025,57,Stroke,4,yes,yes
+296,13/09/2025,71,Diabetes,7,yes,yes
+297,19/06/2025,61,Injury,11,yes,yes
+298,21/11/2025,28,Stroke,6,no,no
+299,10/07/2025,30,Pneumonia,6,yes,yes
+300,05/06/2025,38,Stroke,8,no,no
+301,28/11/2025,70,Pneumonia,9,yes,no
+302,24/04/2025,76,Injury,3,yes,no
+303,26/12/2025,96,Heart Failure,11,no,no
+304,06/02/2025,81,Diabetes,5,yes,no
+305,10/10/2025,35,Heart Failure,8,yes,yes
+306,13/11/2025,25,Injury,11,no,no
+307,12/06/2025,20,Injury,6,no,no
+308,04/12/2025,20,Diabetes,1,yes,no
+309,10/11/2025,77,Heart Failure,11,no,no
+310,19/04/2025,98,Injury,5,no,no
+311,29/11/2025,80,Heart Failure,2,no,no
+312,10/03/2025,67,Injury,12,no,no
+313,02/10/2025,25,Injury,1,no,yes
+314,06/07/2025,56,Diabetes,1,no,yes
+315,06/12/2025,87,Diabetes,15,no,no
+316,18/06/2025,63,Injury,3,no,no
+317,23/04/2025,60,Diabetes,9,no,no
+318,08/03/2025,68,Diabetes,15,no,yes
+319,14/02/2025,83,Injury,9,yes,yes
+320,05/01/2025,85,Heart Failure,12,yes,no
+321,15/03/2025,85,Diabetes,5,no,no
+322,30/05/2025,49,Pneumonia,4,no,no
+323,04/04/2025,84,Stroke,7,no,no
+324,15/06/2025,98,Pneumonia,12,no,no
+325,20/07/2025,37,Injury,13,yes,no
+326,20/07/2025,39,Stroke,5,yes,no
+327,07/01/2025,81,Pneumonia,3,no,yes
+328,11/12/2025,72,Injury,1,yes,no
+329,26/01/2025,88,Stroke,12,no,yes
+330,22/05/2025,91,Diabetes,12,no,no
+331,20/05/2025,63,Injury,11,yes,no
+332,22/01/2025,85,Diabetes,2,yes,yes
+333,03/12/2025,23,Stroke,9,no,no
+334,07/12/2025,76,Pneumonia,9,no,no
+335,12/08/2025,77,Pneumonia,11,yes,yes
+336,22/04/2025,82,Pneumonia,12,no,no
+337,10/12/2025,77,Injury,8,yes,yes
+338,03/08/2025,84,Diabetes,4,no,yes
+339,08/07/2025,72,Heart Failure,6,no,no
+340,12/05/2025,50,Heart Failure,6,yes,no
+341,12/10/2025,56,Stroke,12,no,yes
+342,19/04/2025,75,Stroke,10,no,no
+343,21/04/2025,95,Injury,7,yes,yes
+344,05/05/2025,45,Stroke,1,no,no
+345,05/08/2025,71,Injury,5,no,yes
+346,10/06/2025,59,Diabetes,2,no,yes
+347,02/08/2025,39,Stroke,4,yes,no
+348,07/08/2025,43,Pneumonia,5,no,no
+349,21/05/2025,20,Pneumonia,12,yes,yes
+350,13/03/2025,20,Heart Failure,13,no,yes
+351,30/10/2025,30,Pneumonia,15,no,no
+352,17/07/2025,63,Injury,15,no,yes
+353,16/10/2025,29,Pneumonia,10,yes,no
+354,10/12/2025,73,Diabetes,13,no,yes
+355,20/08/2025,26,Diabetes,8,no,no
+356,23/09/2025,61,Stroke,8,yes,yes
+357,24/11/2025,31,Diabetes,13,no,no
+358,02/03/2025,78,Injury,15,no,yes
+359,24/03/2025,99,Heart Failure,14,no,no
+360,08/07/2025,37,Diabetes,3,no,no
+361,27/11/2025,37,Diabetes,8,yes,no
+362,24/09/2025,71,Pneumonia,14,no,yes
+363,14/09/2025,44,Heart Failure,3,yes,no
+364,28/10/2025,96,Stroke,2,no,yes
+365,04/09/2025,26,Diabetes,11,yes,yes
+366,26/11/2025,81,Pneumonia,12,yes,yes
+367,09/07/2025,76,Diabetes,2,yes,yes
+368,20/03/2025,55,Injury,7,yes,no
+369,17/05/2025,86,Diabetes,15,no,yes
+370,29/08/2025,100,Diabetes,12,no,yes
+371,24/03/2025,30,Stroke,1,no,yes
+372,20/05/2025,28,Pneumonia,4,no,no
+373,25/04/2025,45,Injury,3,yes,no
+374,15/09/2025,92,Heart Failure,8,yes,no
+375,24/01/2025,30,Stroke,6,yes,no
+376,18/07/2025,55,Stroke,9,yes,yes
+377,12/03/2025,49,Injury,6,yes,yes
+378,23/12/2025,20,Pneumonia,10,no,yes
+379,16/07/2025,21,Pneumonia,4,no,no
+380,14/04/2025,78,Injury,10,yes,yes
+381,03/08/2025,26,Diabetes,10,no,yes
+382,15/01/2025,81,Heart Failure,1,no,yes
+383,27/06/2025,90,Heart Failure,13,no,yes
+384,26/01/2025,78,Diabetes,5,no,no
+385,27/09/2025,44,Injury,7,yes,yes
+386,06/03/2025,67,Injury,4,no,no
+387,28/11/2025,69,Stroke,10,no,no
+388,24/07/2025,28,Diabetes,10,no,yes
+389,06/01/2025,60,Injury,3,yes,yes
+390,19/08/2025,83,Pneumonia,14,yes,no
+391,31/05/2025,24,Diabetes,2,no,no
+392,30/06/2025,54,Stroke,3,no,yes
+393,10/04/2025,96,Pneumonia,14,yes,yes
+394,19/05/2025,27,Diabetes,11,yes,yes
+395,15/12/2025,28,Stroke,14,no,no
+396,10/09/2025,93,Diabetes,1,yes,no
+397,06/04/2025,66,Diabetes,9,no,yes
+398,10/06/2025,22,Injury,7,no,yes
+399,20/01/2025,35,Stroke,11,yes,no
+400,05/10/2025,31,Injury,9,yes,yes
+401,25/08/2025,79,Injury,5,yes,yes
+402,10/07/2025,95,Injury,3,yes,no
+403,28/11/2025,77,Injury,1,no,no
+404,24/05/2025,62,Diabetes,5,yes,yes
+405,06/10/2025,60,Pneumonia,9,yes,no
+406,13/02/2025,35,Injury,4,no,no
+407,19/02/2025,53,Injury,7,no,yes
+408,25/07/2025,51,Stroke,3,no,yes
+409,22/01/2025,41,Diabetes,11,no,yes
+410,21/08/2025,53,Stroke,9,yes,yes
+411,07/09/2025,68,Pneumonia,9,no,yes
+412,27/07/2025,94,Stroke,11,yes,yes
+413,04/03/2025,22,Injury,9,yes,yes
+414,19/04/2025,68,Stroke,6,no,yes
+415,25/03/2025,56,Pneumonia,4,yes,yes
+416,17/08/2025,79,Pneumonia,10,yes,no
+417,07/06/2025,40,Pneumonia,11,yes,yes
+418,21/03/2025,42,Injury,4,no,yes
+419,20/04/2025,55,Injury,4,yes,no
+420,25/09/2025,18,Pneumonia,12,yes,yes
+421,22/11/2025,18,Injury,1,no,yes
+422,24/08/2025,92,Injury,7,no,yes
+423,21/06/2025,81,Injury,9,no,no
+424,17/12/2025,71,Heart Failure,11,no,no
+425,02/04/2025,28,Stroke,15,yes,yes
+426,14/04/2025,68,Heart Failure,5,yes,no
+427,24/09/2025,95,Stroke,15,no,no
+428,01/01/2025,74,Pneumonia,6,yes,yes
+429,30/09/2025,99,Diabetes,14,yes,yes
+430,24/07/2025,58,Injury,11,no,no
+431,28/03/2025,33,Heart Failure,15,no,no
+432,19/08/2025,57,Diabetes,11,yes,yes
+433,17/07/2025,97,Heart Failure,5,yes,no
+434,03/10/2025,50,Injury,1,yes,yes
+435,26/07/2025,88,Heart Failure,5,yes,no
+436,20/01/2025,51,Heart Failure,7,no,no
+437,17/01/2025,34,Injury,12,yes,yes
+438,03/01/2025,79,Stroke,4,yes,no
+439,29/04/2025,32,Injury,4,yes,yes
+440,03/04/2025,43,Diabetes,9,yes,yes
+441,26/09/2025,77,Injury,11,no,no
+442,03/12/2025,62,Injury,13,yes,no
+443,01/02/2025,62,Heart Failure,2,yes,yes
+444,10/05/2025,74,Heart Failure,12,no,yes
+445,07/08/2025,84,Diabetes,4,no,no
+446,08/03/2025,21,Pneumonia,5,no,yes
+447,10/05/2025,66,Pneumonia,11,no,yes
+448,21/04/2025,87,Injury,13,no,no
+449,11/07/2025,86,Heart Failure,7,no,yes
+450,11/12/2025,36,Heart Failure,5,yes,no
+451,23/05/2025,91,Diabetes,12,yes,yes
+452,04/01/2025,82,Injury,10,no,no
+453,04/09/2025,61,Heart Failure,3,yes,yes
+454,27/11/2025,89,Injury,7,yes,yes
+455,30/11/2025,20,Diabetes,12,yes,no
+456,29/05/2025,67,Injury,6,yes,no
+457,24/04/2025,66,Injury,7,yes,no
+458,05/01/2025,39,Stroke,2,yes,no
+459,14/09/2025,34,Injury,10,no,no
+460,27/12/2025,59,Diabetes,5,no,yes
+461,24/07/2025,73,Stroke,13,yes,yes
+462,06/02/2025,76,Injury,15,yes,yes
+463,15/12/2025,46,Pneumonia,10,yes,no
+464,15/04/2025,30,Diabetes,13,yes,no
+465,31/03/2025,71,Heart Failure,9,yes,no
+466,04/02/2025,62,Heart Failure,3,yes,no
+467,15/01/2025,69,Injury,1,no,no
+468,22/03/2025,75,Stroke,14,no,no
+469,25/03/2025,65,Heart Failure,6,yes,no
+470,15/01/2025,30,Heart Failure,13,no,yes
+471,04/02/2025,21,Diabetes,2,yes,yes
+472,12/01/2025,35,Heart Failure,7,yes,yes
+473,31/10/2025,100,Diabetes,11,no,yes
+474,06/01/2025,54,Injury,5,yes,no
+475,03/02/2025,35,Heart Failure,14,yes,no
+476,15/03/2025,83,Diabetes,4,yes,no
+477,13/10/2025,75,Injury,4,no,yes
+478,20/10/2025,67,Stroke,8,no,yes
+479,14/02/2025,86,Injury,5,yes,yes
+480,08/01/2025,84,Pneumonia,1,yes,yes
+481,31/01/2025,63,Heart Failure,15,yes,yes
+482,17/01/2025,48,Pneumonia,9,no,yes
+483,19/08/2025,50,Injury,8,yes,yes
+484,20/01/2025,30,Heart Failure,14,no,no
+485,24/07/2025,40,Injury,10,no,yes
+486,27/06/2025,90,Diabetes,3,yes,yes
+487,23/12/2025,37,Pneumonia,7,yes,no
+488,10/02/2025,28,Heart Failure,12,yes,yes
+489,20/09/2025,58,Injury,7,no,no
+490,03/03/2025,88,Pneumonia,15,yes,yes
+491,05/11/2025,70,Stroke,4,no,yes
+492,27/07/2025,80,Injury,6,yes,no
+493,12/01/2025,85,Heart Failure,3,no,yes
+494,11/11/2025,67,Pneumonia,14,yes,no
+495,03/11/2025,34,Diabetes,2,no,yes
+496,12/05/2025,70,Heart Failure,15,yes,yes
+497,14/06/2025,94,Heart Failure,5,no,yes
+498,02/06/2025,35,Stroke,4,no,yes
+499,06/10/2025,88,Stroke,6,no,no
+500,23/09/2025,60,Stroke,5,yes,no
+501,08/09/2025,41,Stroke,1,yes,no
+502,26/08/2025,33,Pneumonia,5,yes,no
+503,28/07/2025,28,Heart Failure,9,yes,no
+504,12/10/2025,59,Stroke,6,no,no
+505,10/05/2025,31,Injury,3,yes,no
+506,11/03/2025,56,Injury,15,no,yes
+507,05/03/2025,57,Pneumonia,15,no,no
+508,17/12/2025,86,Pneumonia,12,yes,no
+509,03/09/2025,30,Heart Failure,2,yes,no
+510,23/06/2025,24,Injury,5,no,no
+511,05/05/2025,42,Stroke,10,yes,no
+512,21/12/2025,44,Heart Failure,8,yes,no
+513,23/05/2025,98,Diabetes,8,no,yes
+514,06/08/2025,25,Pneumonia,9,yes,no
+515,26/12/2025,69,Injury,3,yes,yes
+516,25/11/2025,84,Injury,13,no,yes
+517,30/01/2025,34,Diabetes,12,no,yes
+518,16/07/2025,62,Diabetes,13,no,yes
+519,04/04/2025,77,Pneumonia,14,no,no
+520,21/12/2025,54,Pneumonia,5,yes,no
+521,16/06/2025,91,Diabetes,13,yes,no
+522,02/12/2025,63,Heart Failure,1,no,yes
+523,20/05/2025,83,Heart Failure,8,yes,yes
+524,11/10/2025,54,Stroke,3,yes,yes
+525,30/07/2025,47,Pneumonia,11,yes,yes
+526,01/07/2025,27,Injury,6,no,no
+527,04/07/2025,60,Heart Failure,2,yes,no
+528,22/10/2025,86,Injury,6,yes,no
+529,19/05/2025,69,Heart Failure,6,no,yes
+530,12/07/2025,24,Heart Failure,12,no,no
+531,17/07/2025,84,Pneumonia,12,no,no
+532,04/07/2025,79,Pneumonia,4,yes,yes
+533,31/01/2025,54,Diabetes,8,no,no
+534,21/03/2025,22,Injury,12,yes,no
+535,08/02/2025,51,Heart Failure,11,no,no
+536,07/08/2025,29,Injury,4,no,yes
+537,30/12/2025,42,Pneumonia,14,yes,yes
+538,24/07/2025,94,Injury,6,no,yes
+539,26/08/2025,77,Heart Failure,9,yes,no
+540,26/09/2025,69,Stroke,3,no,yes
+541,05/09/2025,59,Diabetes,1,yes,yes
+542,22/05/2025,21,Injury,9,yes,no
+543,14/07/2025,66,Heart Failure,13,no,yes
+544,11/12/2025,87,Heart Failure,5,no,no
+545,30/03/2025,22,Injury,10,yes,yes
+546,22/11/2025,23,Heart Failure,9,yes,yes
+547,15/01/2025,36,Injury,15,no,no
+548,14/07/2025,96,Injury,11,yes,no
+549,27/02/2025,40,Pneumonia,2,no,yes
+550,27/03/2025,24,Stroke,14,yes,no
+551,10/02/2025,18,Injury,4,yes,no
+552,23/11/2025,55,Heart Failure,2,yes,no
+553,01/07/2025,97,Injury,11,no,yes
+554,16/12/2025,59,Heart Failure,8,no,yes
+555,10/08/2025,46,Pneumonia,1,yes,yes
+556,09/09/2025,56,Pneumonia,15,yes,no
+557,20/12/2025,62,Stroke,6,yes,no
+558,18/02/2025,50,Heart Failure,14,no,no
+559,31/08/2025,21,Heart Failure,14,yes,no
+560,10/05/2025,32,Stroke,15,yes,yes
+561,19/06/2025,80,Heart Failure,5,no,no
+562,06/02/2025,76,Injury,14,yes,no
+563,02/04/2025,21,Injury,5,no,yes
+564,26/05/2025,38,Heart Failure,8,no,yes
+565,28/11/2025,76,Diabetes,10,no,no
+566,26/03/2025,72,Diabetes,5,yes,no
+567,10/06/2025,98,Stroke,15,no,yes
+568,09/08/2025,89,Heart Failure,11,no,no
+569,14/01/2025,99,Stroke,1,yes,no
+570,31/01/2025,41,Heart Failure,15,yes,no
+571,04/04/2025,29,Stroke,13,no,no
+572,18/08/2025,86,Injury,11,no,no
+573,30/07/2025,44,Pneumonia,1,no,yes
+574,05/08/2025,53,Pneumonia,13,yes,yes
+575,12/10/2025,26,Heart Failure,3,no,yes
+576,23/02/2025,83,Heart Failure,2,no,no
+577,09/02/2025,96,Stroke,6,no,no
+578,14/02/2025,52,Heart Failure,9,yes,no
+579,02/08/2025,87,Injury,10,no,no
+580,18/07/2025,48,Injury,8,no,yes
+581,26/09/2025,46,Diabetes,10,no,no
+582,02/05/2025,25,Stroke,2,yes,yes
+583,01/09/2025,81,Heart Failure,3,no,yes
+584,19/05/2025,48,Diabetes,3,no,yes
+585,21/05/2025,71,Heart Failure,2,yes,yes
+586,11/04/2025,43,Heart Failure,13,no,yes
+587,16/09/2025,71,Diabetes,2,yes,yes
+588,23/03/2025,20,Heart Failure,1,no,yes
+589,27/06/2025,41,Pneumonia,2,yes,no
+590,29/12/2025,98,Injury,4,no,no
+591,26/07/2025,46,Diabetes,12,yes,yes
+592,13/09/2025,64,Pneumonia,6,yes,no
+593,07/09/2025,63,Heart Failure,9,yes,yes
+594,01/03/2025,62,Injury,8,yes,yes
+595,11/01/2025,33,Injury,1,yes,yes
+596,22/10/2025,44,Pneumonia,5,yes,no
+597,20/08/2025,43,Diabetes,3,no,no
+598,10/06/2025,99,Injury,5,no,no
+599,06/11/2025,47,Heart Failure,11,yes,no
+600,14/02/2025,47,Injury,10,yes,no
+601,25/01/2025,73,Diabetes,8,yes,yes
+602,20/10/2025,84,Heart Failure,10,yes,no
+603,14/11/2025,50,Pneumonia,4,yes,yes
+604,26/03/2025,62,Diabetes,10,no,no
+605,06/08/2025,78,Injury,1,yes,no
+606,19/08/2025,92,Diabetes,11,yes,no
+607,15/11/2025,70,Injury,2,no,no
+608,11/06/2025,81,Pneumonia,14,yes,yes
+609,09/02/2025,46,Stroke,3,no,no
+610,14/04/2025,21,Stroke,6,yes,no
+611,19/09/2025,90,Stroke,12,yes,no
+612,05/12/2025,86,Pneumonia,7,yes,yes
+613,02/11/2025,23,Diabetes,12,no,no
+614,24/11/2025,81,Diabetes,14,yes,yes
+615,14/04/2025,93,Diabetes,9,no,yes
+616,13/09/2025,90,Heart Failure,14,no,no
+617,08/03/2025,96,Injury,12,yes,yes
+618,27/08/2025,76,Stroke,6,no,yes
+619,30/11/2025,83,Stroke,11,no,no
+620,15/02/2025,56,Pneumonia,14,no,no
+621,13/03/2025,88,Diabetes,7,yes,no
+622,08/08/2025,88,Heart Failure,2,yes,no
+623,10/07/2025,89,Heart Failure,2,yes,yes
+624,17/04/2025,55,Stroke,9,yes,yes
+625,17/03/2025,65,Diabetes,1,no,yes
+626,21/05/2025,91,Heart Failure,2,no,yes
+627,28/04/2025,28,Pneumonia,3,no,no
+628,14/02/2025,26,Diabetes,11,no,yes
+629,30/08/2025,98,Pneumonia,13,yes,yes
+630,05/04/2025,55,Stroke,1,yes,no
+631,03/02/2025,81,Stroke,9,no,yes
+632,29/11/2025,96,Stroke,13,no,yes
+633,08/01/2025,65,Pneumonia,9,no,no
+634,26/10/2025,29,Stroke,13,no,no
+635,16/03/2025,42,Injury,8,yes,yes
+636,24/04/2025,77,Pneumonia,10,yes,no
+637,08/08/2025,78,Pneumonia,4,no,yes
+638,06/01/2025,37,Pneumonia,3,no,no
+639,17/06/2025,41,Pneumonia,13,yes,no
+640,05/09/2025,43,Stroke,7,yes,yes
+641,12/08/2025,63,Stroke,9,no,yes
+642,16/01/2025,66,Stroke,5,no,yes
+643,13/10/2025,40,Injury,15,no,yes
+644,18/08/2025,73,Injury,6,yes,yes
+645,19/08/2025,31,Pneumonia,9,yes,yes
+646,11/08/2025,64,Heart Failure,2,yes,no
+647,08/09/2025,55,Diabetes,11,yes,yes
+648,06/03/2025,23,Pneumonia,12,no,no
+649,25/12/2025,69,Injury,10,yes,no
+650,13/12/2025,75,Injury,7,no,yes
+651,18/12/2025,95,Stroke,10,yes,yes
+652,20/10/2025,38,Diabetes,7,no,no
+653,19/10/2025,72,Stroke,11,yes,no
+654,16/02/2025,97,Diabetes,9,no,no
+655,29/07/2025,41,Injury,2,no,yes
+656,02/02/2025,88,Pneumonia,7,no,no
+657,18/09/2025,40,Diabetes,4,yes,yes
+658,08/06/2025,21,Heart Failure,9,yes,yes
+659,21/02/2025,97,Heart Failure,9,yes,yes
+660,09/06/2025,41,Injury,11,no,no
+661,26/01/2025,38,Heart Failure,13,yes,yes
+662,04/07/2025,72,Heart Failure,5,no,no
+663,17/11/2025,41,Pneumonia,8,no,yes
+664,01/11/2025,23,Stroke,8,yes,yes
+665,22/01/2025,21,Injury,7,yes,no
+666,20/08/2025,21,Pneumonia,9,no,yes
+667,28/01/2025,87,Pneumonia,11,no,yes
+668,01/01/2025,29,Diabetes,14,no,yes
+669,15/01/2025,97,Pneumonia,12,yes,yes
+670,10/01/2025,31,Pneumonia,8,no,yes
+671,09/03/2025,88,Diabetes,5,yes,yes
+672,26/03/2025,68,Injury,13,no,no
+673,15/10/2025,32,Pneumonia,7,yes,yes
+674,16/07/2025,79,Diabetes,7,yes,no
+675,14/11/2025,43,Heart Failure,5,no,no
+676,26/07/2025,51,Stroke,10,no,yes
+677,08/04/2025,52,Heart Failure,2,no,yes
+678,30/11/2025,69,Diabetes,12,yes,no
+679,18/03/2025,26,Heart Failure,11,yes,yes
+680,27/10/2025,36,Injury,11,no,yes
+681,03/04/2025,94,Diabetes,2,yes,no
+682,26/08/2025,32,Heart Failure,7,yes,no
+683,17/01/2025,57,Injury,9,no,yes
+684,14/04/2025,44,Pneumonia,1,yes,yes
+685,23/08/2025,39,Heart Failure,14,yes,yes
+686,03/10/2025,32,Heart Failure,5,yes,no
+687,13/01/2025,66,Heart Failure,4,yes,yes
+688,28/10/2025,98,Injury,11,yes,yes
+689,23/07/2025,60,Heart Failure,7,yes,yes
+690,22/03/2025,45,Diabetes,9,no,no
+691,03/05/2025,85,Pneumonia,4,yes,yes
+692,14/05/2025,40,Pneumonia,13,no,yes
+693,28/07/2025,20,Heart Failure,8,yes,yes
+694,07/06/2025,18,Diabetes,11,no,no
+695,09/10/2025,100,Diabetes,3,no,no
+696,18/01/2025,74,Stroke,1,no,no
+697,26/08/2025,64,Pneumonia,7,no,yes
+698,18/07/2025,23,Injury,2,yes,yes
+699,20/02/2025,76,Injury,9,no,yes
+700,06/07/2025,29,Pneumonia,11,yes,yes
+701,09/06/2025,37,Diabetes,6,no,yes
+702,05/08/2025,46,Stroke,8,yes,yes
+703,16/08/2025,29,Stroke,7,yes,yes
+704,14/03/2025,25,Stroke,11,no,no
+705,21/06/2025,46,Diabetes,10,yes,yes
+706,07/07/2025,88,Heart Failure,1,yes,yes
+707,26/02/2025,79,Pneumonia,8,no,no
+708,02/03/2025,58,Diabetes,5,no,yes
+709,04/03/2025,43,Injury,15,yes,yes
+710,11/08/2025,93,Injury,4,no,yes
+711,12/01/2025,53,Heart Failure,4,yes,yes
+712,30/07/2025,88,Heart Failure,5,no,yes
+713,21/07/2025,73,Pneumonia,6,no,yes
+714,07/03/2025,37,Diabetes,3,yes,yes
+715,23/11/2025,69,Injury,15,no,no
+716,09/12/2025,45,Diabetes,15,no,yes
+717,11/11/2025,61,Injury,3,no,no
+718,01/09/2025,41,Diabetes,10,yes,no
+719,07/06/2025,81,Injury,11,no,yes
+720,21/04/2025,64,Heart Failure,5,yes,no
+721,25/02/2025,95,Injury,6,yes,yes
+722,15/02/2025,51,Heart Failure,9,no,no
+723,21/07/2025,82,Injury,3,no,yes
+724,17/03/2025,35,Injury,8,yes,yes
+725,21/01/2025,56,Injury,6,yes,yes
+726,23/12/2025,100,Diabetes,9,no,no
+727,21/08/2025,50,Stroke,10,yes,no
+728,05/11/2025,80,Stroke,8,yes,no
+729,11/07/2025,35,Injury,1,yes,no
+730,06/05/2025,62,Heart Failure,6,no,no
+731,06/08/2025,34,Heart Failure,14,yes,no
+732,09/02/2025,24,Diabetes,15,yes,no
+733,27/01/2025,91,Injury,8,no,no
+734,29/12/2025,77,Heart Failure,12,no,yes
+735,18/02/2025,51,Pneumonia,13,no,no
+736,02/05/2025,89,Pneumonia,6,yes,no
+737,17/04/2025,87,Diabetes,7,yes,no
+738,19/10/2025,37,Heart Failure,15,yes,no
+739,15/03/2025,52,Stroke,3,yes,no
+740,28/07/2025,94,Diabetes,2,yes,no
+741,04/08/2025,26,Pneumonia,14,no,no
+742,14/09/2025,100,Injury,8,no,no
+743,11/11/2025,42,Diabetes,15,no,no
+744,04/06/2025,51,Diabetes,7,yes,no
+745,14/09/2025,40,Heart Failure,10,yes,yes
+746,15/09/2025,36,Injury,13,yes,no
+747,03/11/2025,59,Pneumonia,13,no,yes
+748,30/08/2025,67,Diabetes,3,yes,no
+749,17/05/2025,96,Heart Failure,13,no,no
+750,02/03/2025,46,Pneumonia,8,no,yes
+751,02/12/2025,64,Injury,2,no,yes
+752,24/02/2025,68,Injury,7,no,yes
+753,09/01/2025,36,Heart Failure,12,no,no
+754,10/11/2025,70,Pneumonia,4,no,yes
+755,04/02/2025,89,Stroke,14,yes,yes
+756,05/09/2025,68,Diabetes,6,yes,yes
+757,13/12/2025,60,Stroke,13,yes,no
+758,08/10/2025,65,Diabetes,10,no,no
+759,09/07/2025,37,Stroke,2,yes,yes
+760,02/08/2025,59,Diabetes,6,no,yes
+761,01/07/2025,71,Pneumonia,3,no,no
+762,12/06/2025,78,Diabetes,10,yes,no
+763,31/05/2025,93,Heart Failure,13,yes,no
+764,08/01/2025,81,Stroke,14,no,no
+765,27/11/2025,88,Stroke,2,yes,yes
+766,31/01/2025,97,Diabetes,12,yes,no
+767,13/07/2025,70,Pneumonia,3,yes,no
+768,15/02/2025,84,Diabetes,3,yes,no
+769,26/12/2025,34,Stroke,7,yes,yes
+770,26/04/2025,27,Diabetes,12,no,no
+771,09/04/2025,72,Heart Failure,12,no,no
+772,15/01/2025,28,Diabetes,11,yes,yes
+773,26/09/2025,75,Heart Failure,14,no,yes
+774,29/01/2025,89,Injury,6,no,yes
+775,15/07/2025,21,Stroke,5,yes,yes
+776,08/04/2025,89,Stroke,10,yes,yes
+777,27/09/2025,81,Diabetes,12,no,yes
+778,21/08/2025,56,Injury,9,yes,yes
+779,13/12/2025,19,Pneumonia,9,no,yes
+780,21/04/2025,38,Diabetes,8,yes,no
+781,04/09/2025,63,Injury,4,yes,yes
+782,19/12/2025,47,Injury,5,no,yes
+783,03/08/2025,63,Heart Failure,15,yes,no
+784,04/04/2025,76,Heart Failure,3,no,no
+785,02/12/2025,44,Heart Failure,4,yes,yes
+786,23/10/2025,52,Stroke,8,no,yes
+787,31/07/2025,85,Heart Failure,15,yes,no
+788,15/12/2025,52,Heart Failure,1,yes,yes
+789,18/05/2025,85,Injury,10,yes,yes
+790,30/12/2025,21,Pneumonia,1,yes,yes
+791,10/11/2025,44,Heart Failure,14,yes,no
+792,01/12/2025,68,Pneumonia,9,yes,yes
+793,29/06/2025,50,Diabetes,2,yes,yes
+794,25/04/2025,89,Injury,2,no,no
+795,07/06/2025,65,Diabetes,2,no,no
+796,21/05/2025,46,Diabetes,5,yes,no
+797,08/03/2025,25,Stroke,8,yes,yes
+798,08/10/2025,46,Heart Failure,10,no,yes
+799,22/12/2025,26,Diabetes,15,yes,no
+800,17/11/2025,78,Heart Failure,12,no,yes
+801,28/03/2025,23,Heart Failure,8,yes,no
+802,23/06/2025,99,Stroke,4,yes,yes
+803,19/03/2025,79,Stroke,13,no,no
+804,21/04/2025,74,Pneumonia,14,no,no
+805,17/03/2025,87,Stroke,4,no,yes
+806,03/04/2025,80,Pneumonia,6,no,yes
+807,05/10/2025,77,Pneumonia,12,yes,no
+808,02/02/2025,27,Heart Failure,13,yes,yes
+809,18/03/2025,62,Diabetes,3,no,no
+810,29/11/2025,98,Diabetes,11,no,no
+811,26/05/2025,27,Injury,1,no,yes
+812,28/08/2025,44,Stroke,9,yes,yes
+813,28/11/2025,56,Pneumonia,9,yes,yes
+814,25/07/2025,87,Diabetes,15,yes,yes
+815,08/04/2025,19,Heart Failure,11,yes,no
+816,25/05/2025,60,Injury,8,no,no
+817,24/01/2025,82,Heart Failure,12,yes,no
+818,31/08/2025,58,Heart Failure,5,yes,yes
+819,17/05/2025,39,Heart Failure,7,yes,yes
+820,14/04/2025,51,Pneumonia,8,yes,yes
+821,15/09/2025,48,Pneumonia,12,yes,no
+822,09/04/2025,78,Heart Failure,1,no,no
+823,16/05/2025,77,Injury,10,no,no
+824,13/12/2025,59,Injury,1,no,no
+825,02/03/2025,69,Injury,9,yes,yes
+826,03/04/2025,78,Pneumonia,7,yes,no
+827,21/05/2025,54,Diabetes,13,no,no
+828,28/08/2025,91,Stroke,15,yes,yes
+829,10/07/2025,18,Pneumonia,3,yes,no
+830,07/03/2025,55,Diabetes,12,yes,yes
+831,07/06/2025,20,Pneumonia,12,yes,no
+832,28/04/2025,78,Stroke,5,no,no
+833,14/02/2025,31,Heart Failure,12,yes,yes
+834,07/08/2025,96,Injury,4,no,no
+835,23/11/2025,84,Diabetes,6,yes,no
+836,05/04/2025,24,Pneumonia,10,yes,yes
+837,13/10/2025,65,Heart Failure,5,yes,yes
+838,10/06/2025,62,Injury,2,no,no
+839,05/11/2025,80,Diabetes,6,no,no
+840,21/09/2025,66,Stroke,15,no,yes
+841,20/06/2025,100,Heart Failure,12,yes,yes
+842,30/12/2025,84,Heart Failure,2,yes,yes
+843,26/04/2025,29,Pneumonia,6,yes,no
+844,25/04/2025,28,Diabetes,14,yes,no
+845,10/09/2025,28,Injury,4,yes,yes
+846,16/09/2025,37,Stroke,10,no,yes
+847,09/09/2025,63,Stroke,13,yes,yes
+848,08/03/2025,73,Injury,6,no,no
+849,28/10/2025,92,Pneumonia,8,no,no
+850,20/09/2025,33,Injury,2,no,no
+851,17/06/2025,64,Heart Failure,6,yes,yes
+852,10/02/2025,72,Pneumonia,7,yes,yes
+853,15/12/2025,51,Injury,3,yes,no
+854,06/04/2025,65,Heart Failure,3,yes,no
+855,09/01/2025,21,Pneumonia,13,no,no
+856,24/01/2025,93,Injury,14,yes,yes
+857,10/05/2025,97,Pneumonia,8,no,yes
+858,26/05/2025,97,Stroke,13,no,yes
+859,26/05/2025,27,Pneumonia,1,yes,yes
+860,23/05/2025,71,Pneumonia,14,yes,no
+861,22/09/2025,47,Heart Failure,9,yes,no
+862,27/03/2025,63,Heart Failure,10,yes,no
+863,03/10/2025,70,Injury,13,no,no
+864,25/06/2025,27,Heart Failure,12,no,no
+865,27/06/2025,79,Heart Failure,1,yes,yes
+866,18/04/2025,46,Injury,7,no,no
+867,09/04/2025,69,Stroke,2,no,no
+868,05/03/2025,26,Diabetes,11,yes,no
+869,06/08/2025,83,Diabetes,12,no,no
+870,27/03/2025,95,Pneumonia,10,yes,no
+871,01/07/2025,88,Heart Failure,5,no,yes
+872,16/03/2025,98,Heart Failure,6,no,no
+873,27/07/2025,64,Diabetes,14,no,no
+874,25/01/2025,68,Diabetes,10,yes,yes
+875,22/01/2025,58,Injury,6,yes,yes
+876,26/07/2025,41,Injury,12,yes,yes
+877,07/11/2025,86,Diabetes,6,yes,yes
+878,18/11/2025,79,Injury,7,yes,yes
+879,26/03/2025,33,Stroke,14,no,yes
+880,02/05/2025,76,Pneumonia,13,yes,yes
+881,11/01/2025,63,Pneumonia,15,yes,yes
+882,21/08/2025,18,Diabetes,13,no,yes
+883,31/10/2025,33,Pneumonia,6,yes,no
+884,13/09/2025,54,Injury,11,no,no
+885,22/12/2025,32,Diabetes,2,no,yes
+886,23/02/2025,18,Diabetes,1,yes,no
+887,20/05/2025,46,Diabetes,10,no,yes
+888,15/07/2025,93,Heart Failure,7,yes,yes
+889,21/04/2025,76,Pneumonia,11,no,yes
+890,20/01/2025,33,Diabetes,1,no,yes
+891,03/08/2025,52,Injury,6,no,no
+892,13/06/2025,90,Stroke,8,yes,yes
+893,02/02/2025,63,Pneumonia,2,yes,yes
+894,19/12/2025,87,Pneumonia,6,no,no
+895,17/01/2025,63,Stroke,12,yes,no
+896,31/08/2025,71,Diabetes,10,no,yes
+897,29/07/2025,25,Pneumonia,6,no,no
+898,30/06/2025,59,Injury,8,yes,no
+899,25/05/2025,77,Diabetes,4,no,yes
+900,21/10/2025,30,Heart Failure,8,no,yes
+901,20/04/2025,67,Injury,10,yes,yes
+902,02/03/2025,45,Pneumonia,13,yes,yes
+903,01/12/2025,73,Stroke,10,yes,no
+904,10/12/2025,31,Pneumonia,10,yes,yes
+905,31/01/2025,34,Pneumonia,12,no,yes
+906,24/03/2025,60,Heart Failure,3,no,no
+907,27/08/2025,56,Heart Failure,13,yes,yes
+908,19/05/2025,87,Stroke,8,no,yes
+909,08/06/2025,50,Heart Failure,9,no,yes
+910,10/06/2025,66,Injury,3,yes,yes
+911,23/07/2025,41,Heart Failure,9,yes,yes
+912,26/05/2025,77,Diabetes,4,yes,yes
+913,27/09/2025,65,Pneumonia,14,yes,yes
+914,15/11/2025,37,Pneumonia,8,no,no
+915,29/07/2025,93,Pneumonia,8,no,no
+916,06/05/2025,49,Stroke,5,yes,no
+917,31/10/2025,50,Diabetes,9,no,yes
+918,25/05/2025,27,Stroke,13,yes,no
+919,16/07/2025,80,Diabetes,8,yes,no
+920,03/11/2025,94,Heart Failure,11,no,no
+921,01/06/2025,52,Diabetes,14,no,yes
+922,13/03/2025,93,Stroke,3,no,yes
+923,01/02/2025,69,Injury,9,yes,yes
+924,18/04/2025,82,Heart Failure,10,yes,no
+925,04/02/2025,40,Pneumonia,13,yes,yes
+926,10/09/2025,97,Heart Failure,4,no,yes
+927,06/11/2025,89,Pneumonia,4,yes,yes
+928,03/09/2025,86,Diabetes,7,no,no
+929,07/08/2025,78,Injury,11,no,yes
+930,01/05/2025,99,Stroke,12,no,yes
+931,12/04/2025,36,Heart Failure,14,no,yes
+932,02/03/2025,92,Pneumonia,6,yes,no
+933,08/12/2025,70,Injury,8,yes,yes
+934,25/07/2025,98,Heart Failure,6,no,yes
+935,20/04/2025,18,Injury,7,no,no
+936,02/05/2025,28,Diabetes,11,no,yes
+937,12/03/2025,74,Injury,14,yes,no
+938,30/12/2025,80,Injury,2,no,no
+939,10/02/2025,46,Diabetes,9,no,yes
+940,05/05/2025,67,Diabetes,4,yes,yes
+941,31/05/2025,49,Injury,13,yes,yes
+942,15/05/2025,82,Stroke,7,yes,no
+943,23/03/2025,54,Heart Failure,4,yes,yes
+944,22/04/2025,75,Injury,1,no,yes
+945,15/08/2025,77,Stroke,12,no,yes
+946,18/02/2025,77,Stroke,14,yes,yes
+947,04/04/2025,46,Pneumonia,2,no,no
+948,10/07/2025,43,Heart Failure,9,yes,no
+949,30/04/2025,46,Pneumonia,7,yes,no
+950,28/07/2025,26,Injury,4,yes,no
+951,15/04/2025,52,Pneumonia,2,no,yes
+952,19/05/2025,21,Diabetes,3,yes,yes
+953,23/12/2025,99,Heart Failure,6,yes,yes
+954,14/04/2025,97,Injury,2,no,no
+955,21/05/2025,78,Injury,13,no,yes
+956,08/08/2025,84,Heart Failure,12,no,yes
+957,05/08/2025,77,Heart Failure,14,no,no
+958,11/01/2025,73,Injury,13,no,no
+959,02/02/2025,38,Injury,4,no,yes
+960,23/06/2025,91,Injury,4,yes,no
+961,08/08/2025,65,Heart Failure,9,yes,no
+962,09/05/2025,48,Injury,13,no,no
+963,18/01/2025,72,Pneumonia,5,yes,no
+964,26/01/2025,63,Injury,15,yes,yes
+965,19/04/2025,64,Pneumonia,8,yes,no
+966,31/03/2025,26,Injury,4,no,no
+967,01/04/2025,99,Stroke,6,yes,no
+968,23/05/2025,38,Injury,5,yes,no
+969,18/11/2025,59,Injury,13,no,no
+970,04/10/2025,46,Heart Failure,3,no,yes
+971,28/10/2025,62,Pneumonia,7,no,no
+972,04/09/2025,29,Injury,11,no,yes
+973,04/07/2025,84,Injury,11,no,yes
+974,14/08/2025,86,Heart Failure,13,yes,yes
+975,22/05/2025,50,Heart Failure,15,yes,yes
+976,24/04/2025,86,Injury,10,yes,yes
+977,18/07/2025,63,Heart Failure,5,yes,no
+978,25/02/2025,49,Heart Failure,11,no,yes
+979,15/06/2025,59,Pneumonia,7,yes,no
+980,01/03/2025,90,Stroke,3,no,no
+981,03/05/2025,92,Injury,4,yes,no
+982,27/10/2025,48,Injury,5,yes,yes
+983,20/02/2025,85,Pneumonia,6,no,no
+984,09/07/2025,66,Heart Failure,15,no,no
+985,26/08/2025,88,Pneumonia,11,yes,yes
+986,15/12/2025,83,Heart Failure,12,no,no
+987,03/02/2025,93,Injury,5,yes,no
+988,24/12/2025,33,Diabetes,10,no,no
+989,08/04/2025,57,Heart Failure,11,no,no
+990,05/02/2025,84,Stroke,13,yes,yes
+991,20/10/2025,39,Injury,6,yes,no
+992,20/11/2025,49,Stroke,3,no,yes
+993,15/11/2025,40,Heart Failure,14,no,no
+994,08/11/2025,74,Stroke,11,yes,no
+995,12/08/2025,44,Injury,1,yes,yes
+996,25/11/2025,91,Heart Failure,5,yes,yes
+997,19/09/2025,66,Pneumonia,5,yes,yes
+998,12/07/2025,28,Stroke,4,yes,no
+999,27/02/2025,86,Heart Failure,14,no,yes
+1000,22/01/2025,38,Injury,7,yes,no
