@@ -10,6 +10,7 @@ This clinical data project analyzes 1,000 patient records to identify risk facto
 **#Key Questions Answered**
 
 1.Calculate readmission counts based on missing follow-up appointments?
+
 2.Which diagnosis group has more patients with age?
 
 **##Key Tecnical Skills Demonstrated**
