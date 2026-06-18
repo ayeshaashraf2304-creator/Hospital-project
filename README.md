@@ -8,7 +8,8 @@ This clinical data project analyzes 1,000 patient records to identify risk facto
 👉 https://public.tableau.com/views/AnalysicsofPatientsdata/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 **##Key Questions Answered**
-1.
+1.Calculate readmission counts based on missing follow-up appointments?
+2.
 
 **##Key Tecnical Skills Demonstrated**
 * **Advanced SQL**: Healthcare cohort segmentation using conditional `CASE WHEN` logic.
