@@ -9,8 +9,8 @@ This clinical data project analyzes 1,000 patient records to identify risk facto
 
 **#Key Questions Answered**
 
-1.Calculate readmission counts based on missing follow-up appointments?
-2.Which diagnosis group has more patients with age?
+1. Calculate readmission counts based on missing follow-up appointments?
+2. Which diagnosis group has more patients with age?
 
 **##Key Tecnical Skills Demonstrated**
 * **Advanced SQL**: Healthcare cohort segmentation using conditional `CASE WHEN` logic.
