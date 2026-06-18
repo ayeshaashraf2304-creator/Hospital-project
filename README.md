@@ -15,3 +15,7 @@ This clinical data project analyzes 1,000 patient records to identify risk facto
 * **Advanced SQL**: Healthcare cohort segmentation using conditional `CASE WHEN` logic.
 * **Tableau Health Informatics**: Operational tracking via stacked bar charting and medical risk categorization.
 
+ **##Source of data**
+ directly made through 
+  👉https://www.mockaroo.com/
+
