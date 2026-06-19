@@ -1,6 +1,6 @@
 -- Data Analysics: Patients_data
 
--- Question 1: Calculate readmission counts based on missing follow-up appointments?
+-- Question 1: Calculate readmission counts based on missing follow-up scheduled?
 SELECT 
     follow_up_scheduled,
     COUNT(patient_id) AS total_patients,
